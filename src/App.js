@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import about from "./components/about";
+import Home from "./components/home";
+import Navbar from "./components/navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import projects from "./components/projects";
+import skills from "./components/skills";
+
+// const con={backgroundColor:'red', maxWidth:'max-content'};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" Component={Home}></Route>
+          <Route path="/about" Component={about}></Route>
+          <Route path="/skills" Component={skills}></Route>
+          <Route path="/projects" Component={projects}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

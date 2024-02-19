@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto";
+  letter-spacing: 0.7px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body{
+    margin: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.b1 {
+  background-color: #331c52;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  padding: 70px 80px
+}
+
+.b1-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.txt1 {
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+}
+
+.txt2 {
+  font-size: 60px;
+  color: #8e71b5;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.txt3 {
+  font-size: 32px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icons1{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-size: 40px;
+}
+.b1-f{
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+
+}
+.b1-f1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px
+}
+.txt4{
+    font-size: 50px;
+    
+}
+.txt5{
+
+
+}
+.txt6{
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.b2 {
+    background-color:#DCCFED;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 80px
   }
-  to {
-    transform: rotate(360deg);
+.b2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
   }
-}
+.b2-2{
+    display: flex;
+    justify-content: end;
+  }
+.b22-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+
+  }

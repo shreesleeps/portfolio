@@ -1,0 +1,17 @@
+.image-gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.ig-i {
+  height: 50px;
+  width: auto;
+}
+
+/* .image-gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+  } */
