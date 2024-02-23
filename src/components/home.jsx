@@ -1,7 +1,7 @@
 
-import Block2 from "./home/block2";
-import Block3 from "./home/block3";
-import Block1 from "./home/block1";
+import Block2 from "./home/blockB";
+import Block3 from "./home/blockC";
+import Block1 from "./home/blockA";
 import Footer from "./home/footer";
 
 
