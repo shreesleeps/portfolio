@@ -13,32 +13,38 @@ function Block1() {
           <div className="txt2">I'm a web</div>
           <div className="txt2">Developer</div>
           <div className="txt3">I build things for web</div>
-          <div className="icons1">
-            <AiOutlineTwitter />
-            <AiFillGithub />
-            <AiFillLinkedin />
-            <TbBrandLeetcode />
-          </div>
+          <button
+            onClick={() => {
+              console.log("scroll to form");
+            }}
+            className="txt-sp-1"
+          >
+            Let's talk!
+          </button>
         </div>
         {/* <div>Photo Area</div> */}
       </div>
 
       <div className="b1-f">
-        <div className="b1-f1">
-          <div className="txt4">1</div>
-          <div className="txt5">
-            YEAR OF
-            <br /> EXPERIENCE
+        <div className="b1-fc">
+          <div className="b1-f1">
+            <div className="txt4">1</div>
+            <div className="txt5">
+              YEAR OF
+              <br /> EXPERIENCE
+            </div>
+          </div>
+          <div className="b1-f1">
+            <div className="txt4">5</div>
+            <div className="txt5">
+              PROJECTS
+              <br /> COMPLETED
+            </div>
           </div>
         </div>
-        <div className="b1-f1">
-          <div className="txt4">5</div>
-          <div className="txt5">
-            PROJECTS COMPLETED
-            <br /> AROUND THE WORLD
-          </div>
+        <div className="image-gallery">
+          <ImageGallery />
         </div>
-        <ImageGallery  />
       </div>
     </div>
   );
